@@ -8,7 +8,7 @@ import { AppContext } from "../context/app-context";
 import {ThemeProvider,createTheme} from "@mui/material";
 
 const UserPanel = () => {
-  'use client'
+  'use client '
   const ctx = useContext(AppContext);
   const [theme, setTheme] = useState<any>("");
 console.log(ctx?.theme);
