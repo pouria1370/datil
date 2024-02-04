@@ -31,3 +31,31 @@ body {
     text-wrap: balance;
   }
 }
+
+@font-face {
+  font-family: vazir-matn;
+  src: url('../client/fonts/Vazirmatn-Black.woff2') format('woff2');
+  font-weight: 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: vazir-matn;
+  src: url('../client/fonts/Vazirmatn-ExtraBold.woff2') format('woff2');
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: vazir-matn;
+  src: url('../client/fonts/Vazirmatn-SemiBold.woff2') format('woff2');
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: vazir-adad;
+  src: url('../client/fonts/Vazirmatn-RD-FD-Bold.woff2') format('woff2');
+  font-style: normal;
+  font-display: swap;
+}
